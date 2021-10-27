@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Jogo da velha</title>
+</head>
+<body>
+
+    <section class="container-left">
+<div class="box-center box-center-left">
+    <div class="player-box">
+        <input class="player-field player-field-1" placeholder="Jogador 1"/>
+        <div class="player-field-wrapper"> 
+        <input class="player-field player-field-2" placeholder="Jogador 2"/>
+        <div class="switcher switcher-bot">
+            <div class="switcher-ball"></div>
+        </div>
+        </div>
+    </div>
+    <h2 class="title title--green title--match">tipo de partida</h2>
+    <div class="md-box">
+    <span class="md-text">Melhor de 3</span>
+    <div class="switcher switcher-MD">
+        <div class="switcher-ball"></div>
+    </div>
+    <span class="md-text">Melhor de 5</span>
+    </div>
+    <button class="button button--green button--play">Jogar</button>
+    <div class="match-history">
+        <h2 class="title title--match--history">Historico de Partidas</h2>
+        <ul class="match-history--list">
+            
+            
+        </ul>
+    </div>
+    <button class="button">Reiniciar</button>
+</div>
+
+</section>
+<section class="container-center">
+    <div class="scoreboard-box">
+        <h1 class="title title--blue-big title-scoreboard">Placar</h1>
+        <div class="score-wrapper">
+            <span class="score score-1">01</span>
+            <span class="winner-text">jogador 1</span>
+            <span class="score score-2">02</span>
+        </div>
+    </div>
+    <div class="board">
+        <span class="board-item board-item-0 "></span>
+        <span class="board-item board-item-1 "></span>
+        <span class="board-item board-item-2 "></span>
+        <span class="board-item board-item-3 "></span>
+        <span class="board-item board-item-4 "></span>
+        <span class="board-item board-item-5 "></span>
+        <span class="board-item board-item-6 "></span>
+        <span class="board-item board-item-7 "></span>
+        <span class="board-item board-item-8 "></span>
+        
+    </div>
+    </section>
+    
+    <section class="container-right">
+        <h2 class="title history-move-title">Historico de Jogadas</h2>
+    <ul class="history-move-list">
+    </ul>
+
+
+    </section>
+    <script src="./scripts/index.js"></script>
+
+</body>
+</html>
